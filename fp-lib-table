@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "PMIC") (type "KiCad") (uri "${KIPRJMOD}/custom/PMIC.pretty") (options "") (descr ""))
+	(lib (name "Battery_Custom") (type "KiCad") (uri "${KIPRJMOD}/custom/Battery_Custom.pretty") (options "") (descr ""))
+	(lib (name "ESP32_Dev") (type "KiCad") (uri "${KIPRJMOD}/custom/ESP32_Dev.pretty") (options "") (descr ""))
+)
