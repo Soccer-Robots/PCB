@@ -11,6 +11,52 @@
 	)
 	(lib_symbols)
 	(sheet
+		(at 113.03 40.64)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "1df6073c-96ed-421d-82b3-97760053ef7d")
+		(property "Sheetname" "Motor Control"
+			(at 113.03 39.9284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor_control.kicad_sch"
+			(at 113.03 75.5146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 50.8 40.64)
 		(size 34.29 34.29)
 		(exclude_from_sim no)

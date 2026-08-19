@@ -661,7 +661,7 @@
         "uuid": "5d6beef2-927d-465e-9043-e130f6ad5fa9"
       }
     ],
-    "used_designators": "#PWR1-2,#PWR4,C1-2,R1-2,Q1-2,U1",
+    "used_designators": "M1-2,#PWR1-2,#PWR4-12,C1-5,R1-2,R5-6,Q1-3,U1-2",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "53749aef-e99e-437f-9b45-71d9796e3c99",
       "BMS"
+    ],
+    [
+      "1df6073c-96ed-421d-82b3-97760053ef7d",
+      "Motor Control"
     ]
   ],
   "text_variables": {},
