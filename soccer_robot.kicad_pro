@@ -661,7 +661,7 @@
         "uuid": "5d6beef2-927d-465e-9043-e130f6ad5fa9"
       }
     ],
-    "used_designators": "M1-2,#PWR1-2,#PWR4-12,C1-5,R1-2,R5-6,Q1-3,U1-2",
+    "used_designators": "J1,M1-2,#PWR1-2,#PWR4-22,D1-2,C1-6,R1-2,R5-10,Q1-4,U1-3",
     "variants": []
   },
   "sheets": [
@@ -676,6 +676,10 @@
     [
       "1df6073c-96ed-421d-82b3-97760053ef7d",
       "Motor Control"
+    ],
+    [
+      "997b8388-28cf-42c4-bfc5-76454235b645",
+      "MCU"
     ]
   ],
   "text_variables": {},

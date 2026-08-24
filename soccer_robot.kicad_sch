@@ -11,7 +11,7 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 113.03 40.64)
+		(at 118.11 80.01)
 		(size 35.56 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27,7 +27,7 @@
 		)
 		(uuid "1df6073c-96ed-421d-82b3-97760053ef7d")
 		(property "Sheetname" "Motor Control"
-			(at 113.03 39.9284 0)
+			(at 118.11 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38,7 +38,7 @@
 			)
 		)
 		(property "Sheetfile" "motor_control.kicad_sch"
-			(at 113.03 75.5146 0)
+			(at 118.11 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -57,8 +57,8 @@
 		)
 	)
 	(sheet
-		(at 50.8 40.64)
-		(size 34.29 34.29)
+		(at 80.645 80.01)
+		(size 35.56 34.29)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +73,7 @@
 		)
 		(uuid "53749aef-e99e-437f-9b45-71d9796e3c99")
 		(property "Sheetname" "BMS"
-			(at 50.8 39.9284 0)
+			(at 80.645 79.2984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -84,7 +84,7 @@
 			)
 		)
 		(property "Sheetfile" "BMS.kicad_sch"
-			(at 50.8 75.5146 0)
+			(at 80.645 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -98,6 +98,52 @@
 			(project "soccer_robot"
 				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 156.21 80.01)
+		(size 35.56 34.29)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "997b8388-28cf-42c4-bfc5-76454235b645")
+		(property "Sheetname" "MCU"
+			(at 156.21 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 156.21 114.8846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9"
+					(page "4")
 				)
 			)
 		)
