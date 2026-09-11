@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS562242DRLR
+D 3V to 18V input voltage range
+K
+F https://eu.mouser.com/ProductDetail/Texas-Instruments/TPS562242DRLR?qs=17ckDYBRdemwXkGetJyzxg%3D%3D
+$ENDCMP
+#
+#End Doc Library

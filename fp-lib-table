@@ -3,4 +3,5 @@
 	(lib (name "PMIC") (type "KiCad") (uri "${KIPRJMOD}/custom/PMIC.pretty") (options "") (descr ""))
 	(lib (name "Battery_Custom") (type "KiCad") (uri "${KIPRJMOD}/custom/Battery_Custom.pretty") (options "") (descr ""))
 	(lib (name "ESP32_Dev") (type "KiCad") (uri "${KIPRJMOD}/custom/ESP32_Dev.pretty") (options "") (descr ""))
+	(lib (name "TPS562242DRLR") (type "KiCad") (uri "${KIPRJMOD}/imported/TPS562242DRLR") (options "") (descr ""))
 )
