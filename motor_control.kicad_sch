@@ -10,6 +10,129 @@
 		(rev "v1.0")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -1362,6 +1485,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7ac71a-2fe2-4a55-8a12-e3790f1e46b6")
+	)
+	(wire
+		(pts
 			(xy 107.95 88.9) (xy 105.41 88.9)
 		)
 		(stroke
@@ -1369,6 +1502,26 @@
 			(type default)
 		)
 		(uuid "0dec4761-b40b-4166-96e2-9e74fe63f563")
+	)
+	(wire
+		(pts
+			(xy 144.78 123.19) (xy 146.05 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "174c0215-b427-4307-904e-8562d6ac169b")
+	)
+	(wire
+		(pts
+			(xy 144.78 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193a7486-1e74-4c22-8046-3ce52f1d34ec")
 	)
 	(wire
 		(pts
@@ -1442,6 +1595,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 133.35) (xy 88.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71fbc486-eea0-4a81-8e98-352404ac14e0")
+	)
+	(wire
+		(pts
 			(xy 76.2 93.98) (xy 81.28 93.98)
 		)
 		(stroke
@@ -1462,6 +1625,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 138.43) (xy 146.05 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b56b0a6-5499-4a59-9e34-47f36c7162e0")
+	)
+	(wire
+		(pts
 			(xy 135.89 88.9) (xy 135.89 87.63)
 		)
 		(stroke
@@ -1469,6 +1642,26 @@
 			(type default)
 		)
 		(uuid "9a238d47-6093-4ea7-b6e2-13399223b5ce")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 88.9 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dfc3d34-9ec0-4077-89e0-24937b049bfc")
+	)
+	(wire
+		(pts
+			(xy 144.78 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bddac1-b149-49c7-8b21-24d3a2cb4611")
 	)
 	(wire
 		(pts
@@ -1519,6 +1712,16 @@
 			(type default)
 		)
 		(uuid "cbc4cf58-04da-4467-89ed-beece047bc9e")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 88.9 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14aa627-4d6b-4ad2-8dda-9be2c72ee4a8")
 	)
 	(wire
 		(pts
@@ -1618,6 +1821,30 @@
 			)
 		)
 	)
+	(global_label "BIN1"
+		(shape passive)
+		(at 87.63 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "221c971a-ecd5-4552-ae5f-e455052ec519")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.3413 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MOTO_A_2"
 		(shape input)
 		(at 162.56 100.33 270)
@@ -1666,6 +1893,30 @@
 			)
 		)
 	)
+	(global_label "AIN1"
+		(shape passive)
+		(at 87.63 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6e7a4c84-f035-4a38-8997-b510ebc66410")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5227 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "BIN2"
 		(shape input)
 		(at 107.95 109.22 180)
@@ -1703,6 +1954,54 @@
 		(uuid "82b6e363-0b95-4c7b-a4c8-d22825c81dc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.7314 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MOTO_B_2"
+		(shape passive)
+		(at 144.78 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "89f82905-2973-4828-bcce-89d6c17cc977")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.4114 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MOTO_A_1"
+		(shape passive)
+		(at 144.78 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "947bccb8-2299-4638-8a55-9e0d9027c785")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5928 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1759,6 +2058,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "BIN2"
+		(shape passive)
+		(at 87.63 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "adf306d4-b404-4d1f-bf9c-99136af18f46")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.3413 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -1858,6 +2181,54 @@
 			)
 		)
 	)
+	(global_label "MOTO_B_1"
+		(shape passive)
+		(at 144.78 133.35 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cf05c1c5-5c3d-483c-8b6f-34e77068ff98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.4114 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AIN2"
+		(shape passive)
+		(at 87.63 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea347300-caed-4d60-ab02-2c6272b7a8ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.5227 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "MOTO_B_2"
 		(shape input)
 		(at 181.61 100.33 270)
@@ -1871,6 +2242,30 @@
 		(uuid "f31a7e0f-a030-491e-9488-714310cfa50f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.61 112.8099 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MOTO_A_2"
+		(shape passive)
+		(at 144.78 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd64e301-31f8-436b-b0cc-ed9bef92a54e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 133.5928 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1903,6 +2298,85 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 146.05 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00526b23-64c1-46df-a1bc-423cc545776a")
+		(property "Reference" "TP11"
+			(at 147.32 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 147.32 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 151.13 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbe9f438-fec4-491e-b058-2b1979f02887")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP11")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -1979,6 +2453,85 @@
 			(project "soccer_robot"
 				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0337953c-c69d-4a9c-b226-5441b5464811")
+		(property "Reference" "TP9"
+			(at 90.17 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c39d2f78-c719-4ec3-b2a2-3350d5c3a1b3")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -2067,6 +2620,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 146.05 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06313526-5640-4f00-9044-720a94950d96")
+		(property "Reference" "TP13"
+			(at 147.32 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 147.32 134.6199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 151.13 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "39a3df17-05ca-4eff-940d-3aa5a301c1b3")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Motor:Motor_DC")
 		(at 162.56 92.71 0)
 		(unit 1)
@@ -2143,6 +2775,85 @@
 			(project "soccer_robot"
 				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
 					(reference "M1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 146.05 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a1db10e-85d3-4c57-82a0-d03893195754")
+		(property "Reference" "TP14"
+			(at 147.32 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 147.32 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 151.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a36a678e-13bd-43f2-9b2b-652c0d0b4e76")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -2414,7 +3125,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 83.82 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2463,6 +3174,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65bb8ecd-e4bd-4815-8388-b653192fe9ab")
+		(property "Reference" "TP7"
+			(at 90.17 121.9199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 124.4599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c81168be-64d5-4b96-b105-ad592590b453")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 83.82 93.98 90)
 		(unit 1)
@@ -2494,7 +3284,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
 			(at 83.82 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -2576,7 +3366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 100.33 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -2885,7 +3675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 146.05 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -2945,6 +3735,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 146.05 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1217120-7738-45e2-b723-ecfd75ef784b")
+		(property "Reference" "TP12"
+			(at 147.32 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 147.32 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 151.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66f3f0f6-1d2b-4ecc-8265-5f18cb3cfc65")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_Small")
 		(at 135.89 85.09 0)
 		(unit 1)
@@ -2978,7 +3847,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 135.89 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -3021,6 +3890,85 @@
 			(project "soccer_robot"
 				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
 					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 128.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e1134401-db91-4f1f-8a6d-5cb3aee2acc5")
+		(property "Reference" "TP8"
+			(at 90.17 126.9999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9468720-3bd9-425b-b443-889caed1ec90")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -3098,6 +4046,85 @@
 			(project "soccer_robot"
 				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 88.9 138.43 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e89fb035-9baa-495c-afed-1421370806d6")
+		(property "Reference" "TP10"
+			(at 90.17 137.1599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 90.17 139.6999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 93.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.9 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e3aaa8e2-e854-4809-8f41-a635c78ffb33")
+		)
+		(instances
+			(project "soccer_robot"
+				(path "/5d6beef2-927d-465e-9043-e130f6ad5fa9/1df6073c-96ed-421d-82b3-97760053ef7d"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
